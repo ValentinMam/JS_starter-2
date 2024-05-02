@@ -39,3 +39,12 @@ Vous pouvez vérifier votre travail en consultant la branche [P1C3-Solution](htt
 - un élément de paragraphe avec le texte “En stock” si l’article est disponible, ou “Rupture de stock” s’il n’est plus disponible.
 
 Vous pouvez vérifier votre travail en consultant la branche GitHub [P1C4-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/blob/P1C4-Solution/pieces.js)
+
+## Exercice 3
+
+Depuis la branche [P2C1-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C1-Exercice), éditez les fichiers pieces.js et index.html pour y ajouter les fonctionnalités suivantes :
+
+- filtrer la liste des pièces pour n’afficher que celles qui ont une description, à l’aide d’un bouton que vous ajouterez dans le HTML ;
+- ordonner les listes selon le prix en ordre décroissant, à l’aide d’un bouton que vous ajouterez dans le HTML.
+
+Vous pouvez vérifier votre travail en consultant la branche [P2C1-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C1-Solution)
