@@ -33,3 +33,24 @@ for (let i = 0; i < pieces.length; i++) {
   pieceElement.appendChild(descriptionElement);
   pieceElement.appendChild(stockElement);
 }
+
+// TRI - en fonction du prix (ordre croissant)
+const boutonTrier = document.querySelector(".btn-trier");
+
+boutonTrier.addEventListener("click", function () {
+  const piecesOrdonnees = Array.from(pieces);
+  piecesOrdonnees.sort(function (a, b) {
+    return a.prix - b.prix;
+  });
+  console.log(piecesOrdonnees);
+});
+
+// FILTRE - en fonction du prix (inférieur ou égal à 35€)
+const boutonFiltrer = document.querySelector(".btn-filtrer");
+
+boutonFiltrer.addEventListener("click", function () {
+  const piecesFiltrees = pieces.filter(function (piece) {
+    return piece.prix <= 35;
+  });
+  console.log(piecesFiltrees);
+});
