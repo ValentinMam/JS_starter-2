@@ -29,3 +29,13 @@ Depuis la branche GitHub [P1C3-Exercice](https://github.com/OpenClassrooms-Stude
 Pour y parvenir, posez-vous d’abord la question du type de donnée approprié. Identifiez ensuite l’endroit précis à modifier. Enfin, utilisez la syntaxe des types choisis pour compléter les informations.
 
 Vous pouvez vérifier votre travail en consultant la branche [P1C3-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/blob/P1C3-Solution/pieces-autos.json)
+
+## Exercice 2
+
+À partir de la branche GitHub [P1C4-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/blob/P1C4-Exercice/pieces.js) :
+Éditez le fichier pieces.js, ajoutez-y le code développé dans ce chapitre de manière à générer une fiche produit, et ajoutez :
+
+- un élément de paragraphe pour la description avec le texte “Pas de description pour le moment.” en cas d’absence de description ;
+- un élément de paragraphe avec le texte “En stock” si l’article est disponible, ou “Rupture de stock” s’il n’est plus disponible.
+
+Vous pouvez vérifier votre travail en consultant la branche GitHub [P1C4-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/blob/P1C4-Solution/pieces.js)
