@@ -48,3 +48,15 @@ Depuis la branche [P2C1-Exercice](https://github.com/OpenClassrooms-Student-Cent
 - ordonner les listes selon le prix en ordre décroissant, à l’aide d’un bouton que vous ajouterez dans le HTML.
 
 Vous pouvez vérifier votre travail en consultant la branche [P2C1-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C1-Solution)
+
+## Exercice 4
+
+Depuis la branche [P2C2-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C2-Exercice), affichez une description des pièces disponibles à côté de la description des pièces abordables. L’intitulé de la pièce devra aussi contenir son prix. Par exemple :
+
+1. Pièces disponibles :
+
+- Ampoule LED – 60 €.
+- Plaquette de frein (x4) – 40 €.
+- Liquide de frein – 9,6 €.
+
+Vous pouvez vérifier votre travail en consultant [la branche P2C2-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C2-Solution)

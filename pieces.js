@@ -74,3 +74,33 @@ boutonNoDescription.addEventListener("click", function () {
   });
   console.log(piecesFiltrees);
 });
+
+// MAP - pour récupérer le nom des pièces
+
+// piece => piece.nom : fonction lamba
+// équivalente à :
+// function (piece) {
+//     return piece.nom;
+// }
+
+const noms = pieces.map((piece) => piece.nom);
+// on utilise une boucle si on veut supprimer des élements mappés, ici le critère est prix pièce > 35 €
+// on commence du dernier vers le premier expliquant le i--
+for (let i = pieces.length - 1; i >= 0; i--) {
+  if (pieces[i].prix > 35) {
+    noms.splice(i, 1);
+  }
+}
+console.log(noms);
+
+//  affichage des pièces au prix abordables
+
+const abordablesElements = document.createElement("ul");
+//Ajout de chaque nom à la liste
+for (let i = 0; i < noms.length; i++) {
+  const nomElement = document.createElement("li");
+  nomElement.innerText = noms[i];
+  abordablesElements.appendChild(nomElement);
+}
+// Ajout de l'en-tête puis de la liste au bloc résultats filtres
+document.querySelector(".abordables").appendChild(abordablesElements);
