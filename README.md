@@ -62,3 +62,17 @@ Depuis la branche [P2C2-Exercice](https://github.com/OpenClassrooms-Student-Cent
 - Liquide de frein – 9,6 €.
 
 Vous pouvez vérifier votre travail en consultant [la branche P2C2-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C2-Solution)
+
+## Exercice 5
+
+Depuis les fichiers index.html et pieces.js de la branche [P2C3-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C3-Exercice) :
+
+1. ajoutez une balise input de type range dans la page web, représentant le prix maximum pour filtrer les pièces :
+
+- valeur min : 0
+- valeur max : 60
+- step: 5
+
+La balise input de type range en HTML permet de fournir un nombre à l’aide d’une barre horizontale avec une poignée que l’on peut glisser de droite à gauche. En définissant les valeurs minimale et maximale sur la balise, la position de la poignée nous donne la valeur correspondante sous forme de nombre.
+
+Vous pouvez vérifier votre travail en consultant la branche [P2C3-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C3-Solution)
