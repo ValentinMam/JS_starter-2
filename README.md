@@ -40,6 +40,8 @@ Vous pouvez vérifier votre travail en consultant la branche [P1C3-Solution](htt
 
 Vous pouvez vérifier votre travail en consultant la branche GitHub [P1C4-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/blob/P1C4-Solution/pieces.js)
 
+# CHAPITRE 2
+
 ## Exercice 3
 
 Depuis la branche [P2C1-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C1-Exercice), éditez les fichiers pieces.js et index.html pour y ajouter les fonctionnalités suivantes :
