@@ -76,3 +76,10 @@ Depuis les fichiers index.html et pieces.js de la branche [P2C3-Exercice](https:
 La balise input de type range en HTML permet de fournir un nombre à l’aide d’une barre horizontale avec une poignée que l’on peut glisser de droite à gauche. En définissant les valeurs minimale et maximale sur la balise, la position de la poignée nous donne la valeur correspondante sous forme de nombre.
 
 Vous pouvez vérifier votre travail en consultant la branche [P2C3-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P2C3-Solution)
+
+# CHAPITRE 3
+
+## Exercice 6
+
+Depuis la branche [P3C2-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C2-Exercice) dans le fichier pieces.js, remplacez la ligne qui récupère les pièces depuis le fichier JSON, de manière à les récupérer depuis l’API à l’adresse http://localhost:8081/pieces.
+Vous pouvez vérifier votre travail en consultant la branche [P3C2-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C2-Solution)
