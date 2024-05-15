@@ -83,3 +83,12 @@ Vous pouvez vérifier votre travail en consultant la branche [P2C3-Solution](htt
 
 Depuis la branche [P3C2-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C2-Exercice) dans le fichier pieces.js, remplacez la ligne qui récupère les pièces depuis le fichier JSON, de manière à les récupérer depuis l’API à l’adresse http://localhost:8081/pieces.
 Vous pouvez vérifier votre travail en consultant la branche [P3C2-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C2-Solution)
+
+## Exercice 7
+
+Dans le fichier index.html de la branche [P3C3-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C3-Exercice) :
+
+- Ajoutez une balise input type=”number” qui servira à spécifier le nombre d’étoiles que l’utilisateur attribue à la pièce avec son commentaire.
+- Modifiez en conséquence le fichier avis.js pour prendre en compte cette nouvelle information dans la charge utile. Vous utiliserez la propriété “nbEtoiles” dans l’objet de la charge utile.
+
+Vous pouvez vérifier votre travail en consultant la branche [P3C3-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C3-Solution)
