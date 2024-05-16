@@ -6,15 +6,19 @@ export function ajoutListenersAvis() {
       const id = event.target.dataset.id;
       const reponse = await fetch("http://localhost:8081/pieces/" + id + "/avis");
       const avis = await reponse.json();
+      window.localStorage.setItem(`avis-piece-${id}`, JSON.stringify(avis));
       const pieceElement = event.target.parentElement;
-
-      const avisElement = document.createElement("p");
-      for (let i = 0; i < avis.length; i++) {
-        avisElement.innerHTML += `<b>${avis[i].utilisateur}:</b> ${avis[i].commentaire} <br>`;
-      }
-      pieceElement.appendChild(avisElement);
+      afficherAvis(pieceElement, avis);
     });
   }
+}
+
+export function afficherAvis(pieceElement, avis) {
+  const avisElement = document.createElement("p");
+  for (let i = 0; i < avis.length; i++) {
+    avisElement.innerHTML += `<b>${avis[i].utilisateur}:</b> ${avis[i].commentaire} <br>`;
+  }
+  pieceElement.appendChild(avisElement);
 }
 
 export function ajoutListenerEnvoyerAvis() {
@@ -24,7 +28,7 @@ export function ajoutListenerEnvoyerAvis() {
     // Création de l’objet du nouvel avis.
     const avis = {
       pieceId: parseInt(event.target.querySelector("[name=piece-id]").value),
-      utilisateur: event.target.querySelector("[name=utilisateur").value,
+      utilisateur: event.target.querySelector("[name=utilisateur]").value,
       commentaire: event.target.querySelector("[name=commentaire]").value,
       nbEtoiles: parseInt(event.target.querySelector("[name=nbEtoiles]").value),
     };
