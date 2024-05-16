@@ -101,3 +101,13 @@ Dans le fichier avis.js de la branche [P3C4-Exercice](https://github.com/OpenCla
 - affichez automatiquement les avis enregistrés lors du chargement de la page web.
 
 Vous pouvez vérifier votre travail en consultant la branche [P3C4-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C4-Solution)
+
+## Exercice 9
+
+Retrouvez le code développé dans ce chapitre sur la branche [P4C3-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P4C3-Exercice).
+Rajoutez un deuxième graphique sur votre site web. Ce graphique devra afficher deux barres verticales représentant chacune la quantité de commentaires déposés sur :
+
+- les pièces disponibles ;
+- les pièces non disponibles.
+
+Vous pouvez vérifier votre travail en consultant la branche [P4C3-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P4C3-Solution),
