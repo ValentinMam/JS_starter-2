@@ -92,3 +92,12 @@ Dans le fichier index.html de la branche [P3C3-Exercice](https://github.com/Open
 - Modifiez en conséquence le fichier avis.js pour prendre en compte cette nouvelle information dans la charge utile. Vous utiliserez la propriété “nbEtoiles” dans l’objet de la charge utile.
 
 Vous pouvez vérifier votre travail en consultant la branche [P3C3-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C3-Solution)
+
+## Exercice 8
+
+Dans le fichier avis.js de la branche [P3C4-Exercice](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C4-Exercice) :
+
+- sauvegardez les avis quand vous recevez la réponse de l’API HTTP à votre requête pour récupérer les avis d’une pièce auto ;
+- affichez automatiquement les avis enregistrés lors du chargement de la page web.
+
+Vous pouvez vérifier votre travail en consultant la branche [P3C4-Solution](https://github.com/OpenClassrooms-Student-Center/7697016-Front-End.1/tree/P3C4-Solution)
